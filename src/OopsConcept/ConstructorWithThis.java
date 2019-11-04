@@ -8,7 +8,7 @@ public class ConstructorWithThis {
 	static int age;
 	
 	public ConstructorWithThis(String i,int a){
-		this.name=i;
+		this.name=i;//if you are passing different local variable name to initialize global variable you need not to use this keyword. Here it's used just to differentiate the this key word is used only if global and local variable name are same and you want to initialize the global variable with the local variable 
 		this.age=a;
 		System.out.println(name);
 		System.out.println(age);
