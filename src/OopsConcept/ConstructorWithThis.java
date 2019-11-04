@@ -6,9 +6,10 @@ public class ConstructorWithThis {
 	//This key word is used to initialize the class variable. if you want to use class variable value in any method or constructor you can use this
 	String name;
 	static int age;
-	public ConstructorWithThis(String name,int age){
-		this.name=name;
-		this.age=age;
+	
+	public ConstructorWithThis(String i,int a){
+		this.name=i;
+		this.age=a;
 		System.out.println(name);
 		System.out.println(age);
 	}

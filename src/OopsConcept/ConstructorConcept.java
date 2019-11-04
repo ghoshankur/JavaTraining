@@ -7,10 +7,10 @@ public class ConstructorConcept {
 		
 	}
 	public ConstructorConcept(String s){
-		System.out.println("Passing single parameter in Constructor"+s);
+		System.out.println("Passing single parameter in Constructor "+s);
 		
 	}public ConstructorConcept(int i,String s){
-		System.out.println("Passing multiple parameter in Constructor"+i+s);
+		System.out.println("Passing multiple parameter in Constructor "+i+" "+s);
 		
 	}
 	public static void main(String[] args) {
