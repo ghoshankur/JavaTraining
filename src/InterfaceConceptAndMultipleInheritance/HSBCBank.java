@@ -1,6 +1,6 @@
 package InterfaceConceptAndMultipleInheritance;
 
-public class HSBCBank implements USBank,GermanBank {
+public class HSBCBank implements USBank,GermanBank,RBI {
 	//It's mandatory to define all the methods in the interface
 	//Is a relationship
 	public void credit()

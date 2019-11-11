@@ -15,6 +15,7 @@ public class testBank {
 		sb.loan();
 		sb.debit();
 		sb.debit(1000, 500);
+		
 
 	}
 

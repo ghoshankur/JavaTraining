@@ -21,6 +21,11 @@ public class testBank {
      GermanBank DB= new HSBCBank();
      DB.mutualFund();
      DB.transferMoneyDB();
+     
+     RBI rbi=new HSBCBank();
+     rbi.credit();
+     System.out.println("HSBC Bank (RBI) Min Balance "+rbi.min_bal+" and minimum interest is "+rbi.min_interest_rate+"%");
+     rbi.debit();
 	}
 
 }

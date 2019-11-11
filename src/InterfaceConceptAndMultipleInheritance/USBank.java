@@ -13,5 +13,6 @@ public interface USBank {
 	// value of variable will not change
 	// no static method and main method can be mentioned
 	//it's abstract in nature means we can't create an object of it
+	// variables are static by default, so no need to mention separately 
 	
 }

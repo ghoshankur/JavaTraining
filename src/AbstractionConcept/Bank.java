@@ -3,6 +3,7 @@ package AbstractionConcept;
 //Partial abstraction in this class
 //to achieve full abstraction need to hide the implementation logic 
 //can not create the object of abstract class
+//must define abstract class to define an abstract method
 public abstract class Bank {
 	public abstract void loan();// no method body and class need to be abstract
 								// for abstract method.
