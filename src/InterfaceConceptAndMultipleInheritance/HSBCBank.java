@@ -3,6 +3,7 @@ package InterfaceConceptAndMultipleInheritance;
 public class HSBCBank implements USBank,GermanBank,RBI {
 	//It's mandatory to define all the methods in the interface
 	//Is a relationship
+	int min=100;
 	public void credit()
 	{
 		System.out.println("HSBC Bank Credit");
