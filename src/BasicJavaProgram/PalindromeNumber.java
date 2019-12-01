@@ -13,14 +13,15 @@ public class PalindromeNumber {
 			n=n/10;
 	}
 		if(var==temp)
-			System.out.println("Palindrome number");
+			System.out.println(temp+" is Palindrome number");
 		else
-			System.out.println("not plaindrome");
+			System.out.println(temp+" is not plaindrome");
 	}
 	
 	public static void main(String[] args) {
 		PalindromeNumber p=new PalindromeNumber();
 		p.palin(212);
+		p.palin(144);
 		
 	}
 

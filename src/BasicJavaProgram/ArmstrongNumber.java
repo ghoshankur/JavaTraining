@@ -22,7 +22,10 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		// addition of cube of each digit is equal to the number
-		ArmstrongNumber.isArmStrong(153);
+		isArmStrong(153);
+		isArmStrong(370);
+		isArmStrong(1);
+		isArmStrong(448);
 
 	}
 
