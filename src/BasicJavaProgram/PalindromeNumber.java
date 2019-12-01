@@ -2,8 +2,8 @@ package BasicJavaProgram;
 
 public class PalindromeNumber {
 
-	static int r=0;
-	static int var=0;
+	static int r;
+	static int var;
 	public void palin(int n)
 	{
 		int temp=n;
@@ -20,7 +20,7 @@ public class PalindromeNumber {
 	
 	public static void main(String[] args) {
 		PalindromeNumber p=new PalindromeNumber();
-		p.palin(21);
+		p.palin(212);
 		
 	}
 
